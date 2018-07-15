@@ -24,10 +24,12 @@ body > header > nav > a {
   padding: 0px 10px;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
 }
 
 body > header > nav > a:visited {
   color: white;
+  text-decoration: none;
 }
 
 body > header > nav > a:hover {

@@ -72,6 +72,19 @@ body > main {
   justify-content: space-around;
   border-bottom: 1px solid #00000044;
   box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+#intro-video-holder > .more-videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 560px;
+}
+
+#intro-video-holder > * {
+  padding: 10px;
 }
 
 .feat {
@@ -83,12 +96,14 @@ body > main {
   padding: 25px 0px;
   border-bottom: 1px solid #80808029;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .feat-desc {
   padding-right: 50px;
+  margin-bottom: 20px;
   font-size: 20px;
-  width: 400px;
+  width: 550px;
 }
 
 .feat-view {

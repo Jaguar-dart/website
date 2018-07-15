@@ -50,6 +50,7 @@ class SiteLayout implements SiteRenderer {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/VPqNYtyF2G4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/THzC75zOGi0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iPHCM6n79lc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div width="560" class="more-videos"><a href="https://www.youtube.com/watch?v=VPqNYtyF2G4&list=PLS78sux6nBcRR9EyR3sBQxRXXW4jac7TR">More videos</a></div>
       </div>
       
       <div class="feat">
