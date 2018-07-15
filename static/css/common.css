@@ -1,0 +1,41 @@
+:root {
+  --accent-color: #d6ac28;
+  --title-color: #d6ac28;
+  --border-width:  5px ;
+}
+
+body > header {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff21;
+  box-sizing: border-box;
+}
+
+body > header > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+body > header > nav > a {
+  font-size: 20px;
+  padding: 0px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+body > header > nav > a:visited {
+  color: white;
+}
+
+body > header > nav > a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body > header > nav > a:active {
+  color: #b1b1b1;
+}

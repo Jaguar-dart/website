@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /*background-color: #0a1922;*/
+  background-color: #111335;
+}
+
+main {
+  margin: auto;
+  padding: 25px;
+  flex: 1 0 auto;
+  max-width: 750px;
+}
+
+/*home page*/
+
+/*apply accent-color colour to links*/
+
+a:link, a:visited {
+  color: var(--accent-color);
+}
+
+a.icon:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/*paginator at bottom of list view*/
+
+.pages {
+  padding: 15px 0;
+}
+
+.pages-icon {
+  padding: 0 15px;
+}
+
+/*list item for posts and projects*/
+
+.item {
+  padding: 10px 0;
+}
+
+.item-tag {
+  background-color: var(--accent-color);
+}
+
+.navbar h1 {
+  color: var(--title-color);
+}
+
+/*navigation bar icons*/
+
+.navbar-icon {
+  font-size: 125%;
+  display: inline-block !important;
+}
+
+/*coloured borders at top and bottom of the page*/
+
+.navbar.navbar-default {
+  border-top: var(--border-width) solid var(--accent-color);
+}
+
+footer {
+  border-bottom: var(--border-width) solid var(--accent-color);
+}
+
+img {
+  max-width: 100%;
+}

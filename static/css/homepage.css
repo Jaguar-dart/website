@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body > header {
+  background-color: #357fd6;
+}
+
+body > main {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+#intro {
+  user-select: none;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#intro > .title {
+  color: var(--title-color);
+  font-size: 80px;
+}
+
+#intro > .description {
+  color: black;
+  font-size: 20px;
+}
+
+#intro > .description > a {
+  color: #357fd6;
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-color);
+  padding: 1px 10px;
+  line-height: 35px;
+  cursor: pointer;
+  transition: border-bottom-width 0.2s;
+}
+
+#intro > .description > a:hover {
+  color: #357fd6;
+  text-decoration: none;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+#intro > .description > a:visited {
+  color: #357fd6;
+  text-decoration: none;
+}
+
+#intro > .description > a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#intro-video-holder {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #00000044;
+  box-sizing: border-box;
+}
+
+.feat {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding: 25px 0px;
+  border-bottom: 1px solid #80808029;
+  box-sizing: border-box;
+}
+
+.feat-desc {
+  padding-right: 50px;
+  font-size: 20px;
+  width: 400px;
+}
+
+.feat-view {
+  flex: 1;
+  max-width: 550px;
+}
+
+.desc-main {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.desc-sub {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
